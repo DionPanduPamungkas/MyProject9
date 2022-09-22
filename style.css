@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Contoh code di atas adalah untuk mereset default di html nya*/
+
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background: #eaeaea;
+	color: #333333;
+	background-image: url(img.jpg);
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.images {
+	height: 375px;
+	background-image: url(img.jpg);
+	background-size: cover;
+	background-position: 0 -280px;
+	border-top: 5px solid lightskyblue;
+	border-bottom: 5px solid pink;
+}
+
+.content {
+	font-size: 12px;
+}
+
+.tema {
+	font-size: 18px;
+	font-family: arial;
+	font-weight: bold;
+	padding-left: 220px;
+}
+
+.penulis a {
+	text-decoration: none;
+	color: cyan;
+}
+
+.penulis a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+
+p {
+	text-indent: 50px;
+}
+
+
+#tebal {
+	font-weight: bold;
+}
+
+.artikel {
+	padding-left: 100px;
+	font-weight: bold;
+	font-family: Ink Free;
+	color: violet;
+	padding-left: 70px;
+	font-size: 17px;
+}
+
+.footer {
+	background-color: grey;
+	padding: 20px;
+}
+
+.footer .copyright {
+	color: whitesmoke;
+	text-align: center;
+	font-size: 12px;
+}
+
